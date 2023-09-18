@@ -11,6 +11,6 @@ void main()
 		if(num1%i==0 && num2%i==0)
 			gcd=i;
 	}
-	lcm=(num1*num2)/gcd
+	lcm=(num1*num2)/gcd;
 	printf("LCM of %d and %d in: %d\n",num1, num2, lcm);
 }
