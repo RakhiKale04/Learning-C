@@ -4,7 +4,7 @@
 void main() {
 	
 	int userInputArraySize=0;
-    int userInputArray[100];
+        int userInputArray[100];
 	int sum=0, mean=0, i;
 	
 	printf("Enter the count of integers for mean:\n");
