@@ -3,10 +3,10 @@ all my C codes
 
 19/september/23:
 what i learned:
-array basics
-for loop basics
+1. array basics
+2. for loop basics
 
 weakness:
-address basics
-loop rules
+1. address basics
+2. loop rules
 
