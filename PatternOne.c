@@ -2,9 +2,22 @@
 #include<conio.h>
 
 void main() {
-	printf("1\n");
-	printf("1 2\n");
-	printf("1 2 3\n");
-	printf("1 2 3 4\n");
-	printf("1 2 3 4 5\n");
+	int i=0,userInput=0,j=1;
+	printf("Enter the number: \n");
+	scanf("%d", &userInput);
+	
+	for(i=1;j<=userInput;i++)
+	{
+		if(i<=j)
+		{
+			printf("%d ", i);
+		}
+		else {
+			i=0;
+			j++;
+			printf("\n");
+		}
+		
+		//printf("i: %d ,j: %d ,N: %d " ,i,j,userInput);
+	}
 }
